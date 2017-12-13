@@ -31,11 +31,11 @@ p {
 	font-weight: bolder;
 	color: rgba(255,255,255,1.00);
 }
-#red {
-	background-color: rgba(255,6,10,1.00);
+#black {
+	background-color: rgba(0,0,0,1.00);
 }
-#blue {
-	background-color: rgba(41,0,255,1.00);
+#green {
+	background-color: rgba(0,255,150,1.00);
 }
 #yellow {
 	background-color: rgba(167,255,0,1.00);
