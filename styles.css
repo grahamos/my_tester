@@ -58,6 +58,7 @@ p {
 #littlebox {
 	margin: 0 500px 0 0;
 	color: rgba(0,0,0,1.00);
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
 }
 
 @media (max-width: 320px) {
