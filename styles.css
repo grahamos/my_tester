@@ -61,6 +61,19 @@ p {
 	color: rgba(0,0,0,1.00);
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
 }
+.circle {
+	width: 90px;
+	margin: auto;
+	padding: 0;
+	background-color: #E21114;
+	border-radius: 100%;
+	height: 90px;
+}
+.fas.fa-heart {
+	margin: 0;
+	padding: 25px 20px 25px 25px;
+	font-size: 40px;
+}
 
 @media (max-width: 320px) {
 #bigbox {

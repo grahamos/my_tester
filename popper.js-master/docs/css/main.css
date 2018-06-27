@@ -1,0 +1,47 @@
+/*
+Error: Invalid CSS after "...eurl }}/images'": expected "{", was ";"
+        on line 5 of /Applications/XAMPP/xamppfiles/htdocs/my_tester/popper.js-master/docs/css/main.scss
+
+1: ---
+2: # Only the main Sass file needs front matter (the dashes are enough)
+3: ---
+4: 
+5: $baseurl: '{{ site.baseurl }}/images';
+6: 
+7: @import 'libs/vars';
+8: @import 'libs/functions';
+9: @import 'libs/mixins';
+10: @import 'font-awesome.min.css';
+
+Backtrace:
+/Applications/XAMPP/xamppfiles/htdocs/my_tester/popper.js-master/docs/css/main.scss:5
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:1137:in `expected'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:1132:in `tok!'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:665:in `block'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:658:in `ruleset'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:684:in `block_child'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:674:in `block_contents'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:125:in `stylesheet'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:41:in `parse'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.25/lib/sass/engine.rb:409:in `_to_tree'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/compass-1.0.3/lib/compass/sass_compiler.rb:40:in `compile!'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/compass-1.0.3/lib/compass/commands/update_project.rb:49:in `perform'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/bin/compass:37:in `load'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/bin/compass:37:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...eurl }}/images'\": expected \"{\", was \";\"\A         on line 5 of /Applications/XAMPP/xamppfiles/htdocs/my_tester/popper.js-master/docs/css/main.scss\A \A 1: ---\A 2: # Only the main Sass file needs front matter (the dashes are enough)\A 3: ---\A 4: \A 5: $baseurl: '{{ site.baseurl }}/images';\A 6: \A 7: @import 'libs/vars';\A 8: @import 'libs/functions';\A 9: @import 'libs/mixins';\A 10: @import 'font-awesome.min.css';"; }
