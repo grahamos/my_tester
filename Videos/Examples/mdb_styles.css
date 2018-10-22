@@ -1,0 +1,51 @@
+@charset "UTF-8";
+.hero {
+  height: 50vh;
+  background-image: url(../../images/hero.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.row .about.col-6 {
+  background-image: url(../../images/about.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.row .align-self-end.col-6 {
+  margin: 0px;
+  font-size: 1em;
+}
+
+@media (min-width:1200px){
+.hero {
+  height: 100vh;
+  background-image: url(../../images/hero.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  font-size: 6em;
+}
+}
+
+@media (max-width:414px){
+.quote {
+  font-size: 0.8em;
+  text-align: center;
+}
+.row .about.col-6 {
+  background-image: url(../../images/about.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.row .align-self-end.col-6 {
+  margin: 0px;
+  font-size: 1em;
+}
+.d-flex.align-items-start.flex-column.text-dark {
+  height: 200px;
+}
+}

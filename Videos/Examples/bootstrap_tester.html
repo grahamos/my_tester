@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap tester</title>
+<!-- Bootstrap -->
+	<link href="../../css/bootstrap-4.0.0.css" rel="stylesheet">
+	<link href="bt_styles.css" rel="stylesheet" type="text/css">
+  </head>
+<!-- body code goes here -->
+  <body>
+    <header class="hero clearfix">
+    <div class="container">
+      <img class="pt-5" src="../../images/image.png" alt="sample">
+    </div><!--div container-->
+    </header>
+    
+<!--MENU-->
+    <div class="container bg-primary">
+      <div class="d-flex justify-content-center flex-wrap" style="height:100vh"><!--d-flex controls inside classes-->
+        <div class="resp-space">HOME</div>
+        <div class="resp-space">ABOUT</div>
+        <div class="resp-space">CONTACT</div>
+				<!-- Single button -->
+<div class="btn-group">
+   <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   Action
+   </button>
+   <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+   </div>
+</div>
+        <div class="resp-space d-sm-none">PRICE</div><!--VISIBILITY-->
+        <div class="resp-space">BLOG</div>
+        <div class="resp-space">MORE</div>
+      </div>
+    </div><!--div container-->
+  <div class="container bg-danger">
+    <div class="row justify-content-center text-center">
+        <div class="bg-info d-flex flex-wrap flex-row-reverse" style="height:50vh">
+          <div class="menu col align-self-sm-end align-self-xl-start">
+            col 1
+          </div>
+          <div class="menu col align-self-sm-center align-self-xl-start">
+            col 2
+          </div>
+          <div class="menu col align-self-xl-start">
+            col 3
+          </div>
+          <div class="menu col align-self-sm-center align-self-xl-start">
+            col 4
+          </div>
+          <div class="menu col align-self-sm-end align-self-xl-start">
+            col 5
+          </div>
+          <div class="menu col align-self-sm-start align-self-xl-start">
+            col 6
+          </div>
+        </div><!--div col-->
+      </div><!--div row-->
+      
+      <div class="row">
+       <div class="col-sm-4 col-md-12 col-lg-12 col-xl-12 d-flex flex-column col-sm-8">
+          <p class="bg-warning order-2 text-center">Column 7</p>
+          <img class="section" src="../../images/ImgResponsive_Placeholder.png" alt="sample">
+        </div><!--div col-->
+        
+        <div class="col-sm-4 col-md-12 col-lg-12 col-xl-12">
+          <div class="row no-gutters">
+            <div class="col-2 col-sm-4 col-md-2 col-lg-4 col-xl-6"><img class="img-thumbnail" src="../../images/image.png" alt="sample"></div>
+            <div class="col-2 col-sm-4 col-md-2 col-lg-4 col-xl-6"><img class="img-thumbnail" src="../../images/image.png" alt="sample"></div>
+            <div class="col-2 col-sm-4 col-md-2 col-lg-4 col-xl-6"><img class="img-thumbnail" src="../../images/image.png" alt="sample"></div>
+            <div class="col-2 col-sm-4 col-md-2 col-lg-4 col-xl-6"><img class="img-thumbnail" src="../../images/image.png" alt="sample"></div>
+            <div class="col-2 col-sm-4 col-md-2 col-lg-4 col-xl-6"><img class="img-thumbnail" src="../../images/image.png" alt="sample"></div>
+            <div class="col-2 col-sm-4 col-md-2 col-lg-4 col-xl-6"><img class="img-thumbnail" src="../../images/image.png" alt="sample"></div>
+          </div><!--div row-->
+        </div><!--div col-->
+      </div><!--div row-->
+      
+      <div class="row text-center">
+       <div class="col-sm-6 col-md-3 col-lg-6 col-xl-12 d-flex flex-column">
+          <p class="bg-warning order-2">Column 8</p>
+          <img class="section" src="../../images/ImgResponsive_Placeholder.png" alt="sample">
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-6 col-xl-12 d-flex flex-column">
+          <p class="bg-warning order-2">Column 9</p>
+          <img class="section" src="../../images/ImgResponsive_Placeholder.png" alt="sample">
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-6 col-xl-12 d-flex flex-column">
+          <p class="bg-warning order-2">Column 10</p>
+          <img class="section" src="../../images/ImgResponsive_Placeholder.png" alt="sample">
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-6 col-xl-12 d-flex flex-column">
+          <p class="bg-warning order-2">Column 11</p>
+          <img class="section" src="../../images/ImgResponsive_Placeholder.png" alt="sample">
+        </div>
+        
+<!--ALIGNMENT-->        
+<!--vertical aligned-->        
+        <div class="col">
+          <div class="row">
+            <div class="col-sm-6 col-md-3 col-lg-6 col-xl-12 d-flex flex-column align-self-end">
+              <p class="bg-warning order-2"><strong>Column 12 aligned self end</strong></p>
+              <img class="section" src="../../images/ImgResponsive_Placeholder.png" alt="sample">
+            </div>
+            <div class="col-sm-6 col-md-3 col-xl-12 d-flex flex-column col-lg-6">
+              <p class="bg-warning order-2">Column 13</p>
+              <img class="section" src="../../images/ImgResponsive_Placeholder.png" alt="sample">
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-6 col-xl-12 d-flex flex-column">
+              <p class="bg-warning order-2">Column 14</p>
+              <img class="section" src="../../images/ImgResponsive_Placeholder.png" alt="sample">
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-6 col-xl-12 d-flex flex-column">
+              <p class="bg-warning order-2"><strong>Column 15 vertical aligned with other cols</strong> </p>
+              <img class="section" src="../../images/ImgResponsive_Placeholder.png" alt="sample">
+            </div>
+          </div><!--div row-->
+        </div><!--div col-->
+    </div><!--div row-->
+      
+ <!--FLOATS-->     
+    <div class="container">
+        <div class="clearfix bg-warning text-white text-center d-flex mb-3 ">
+          <div class="menu2 float-sm-left float-md-right float-lg-left float-xl-right">col 16</div>
+          <div class="menu2 float-sm-left float-md-right float-lg-left float-xl-right">col 17</div>
+          <div class="menu2 mr-auto float-sm-left float-md-right float-lg-left float-xl-right">col 18</div>
+          <div class="menu2 float-sm-left float-md-right float-lg-left float-xl-right">col 19</div>
+          <div class="menu2 float-sm-left float-md-right float-lg-left float-xl-right">col 20</div>
+        </div><!--div col-->
+    </div><!--div container-->
+    
+ <!--CLEARFIX-->      
+    <div class="bg-info  clearfix">
+      <button class="btn btn-secondary float-left">Example Button floated left</button>
+      <button class="btn btn-secondary float-right">Example Button floated right</button>
+    </div>
+    
+<!--MARGIN/PADDING-->    
+    <div class="container mb-5"  style="height:20vh"><span class="text-white">MARGIN & PADDING</span>
+      <div class="row">
+        <div class="bg-info d-flex">
+          <div class="marpad ml-1 pr-2">col 21</div>
+          <div class="marpad mb-3 pl-2">col 22</div>
+          <div class="marpad bg-danger pb-3 pt-5">col 23</div>
+          <div class="marpad pt-2 mb-5">col 24</div>
+          <div class="marpad mt-2 mb-5">col 25</div>
+          <div class="marpad mb-3">col 26</div>
+          <div class="marpad p-4">col 27</div>
+          <div class="marpad m-3">col 28</div>
+        </div><!--div col-->
+      </div><!--div row-->
+    </div><!--div container-->
+    
+    <div class="container bg-dark" style="height:40vh"><span class="text-white">MARGIN & PADDING X&Y AXIS</span>
+      <div class="row">
+        <div class="bg-info d-flex">
+          <div class="marpad my-1 my-sm-2 my-md-3 my-lg-4 my-xl-5">col 29</div>
+          <div class="marpad mx-2 mx-sm-3 mx-md-4 mx-lg-5 mx-xl-1">col 30</div>
+          <div class="marpad">col 31</div>
+          <div class="marpad bg-danger mx-auto">col 32</div>
+          <div class="marpad">col 33</div>
+          <div class="marpad py-2 py-sm-3 py-md-4 py-lg-5 py-xl-1">col 34</div>
+          <div class="marpad px-3 px-sm-3 px-md-4 px-lg-5 px-xl-6">col 35</div>
+       </div><!--div col-->
+      </div><!--div row-->
+    </div><!--div container-->
+    
+<!--SIZING UTILITES-->
+    <div class="container bg-danger" style="height:50vh"> <span class="text-white">Sizing W&H</span><!--viewport height to be 100% for height to expand-->
+      <div class="sizing bg-warning border w-25 p-1">col 29</div>
+      <div class="sizing bg-warning border w-50 p-1">col 30</div>
+      <div class="sizing bg-warning border w-75 p-1">col 31</div>
+      <div class="sizing bg-warning border w-100 p-1">col 32</div>
+      <div class="sizing bg-warning border w-25 h-25 p-1">col 33</div>
+      <div class="sizing bg-warning border w-50 h-25 p-1">col 34</div>
+    </div><!--div container-->
+
+<!--BORDERS-->
+    <div class="container bg-danger" style="height:60vh"><span class="text-white">BORDERS</span>
+     <div class="row p-2 justify-content-center">
+       <div class="board d-inline-block border"> </div>
+       <div class="board d-inline-block border border-warning"> </div>
+       <div class="board d-inline-block border-top"> </div>
+       <div class="board d-inline-block border-0 rounded text-center text-white pt-5">ROUNDED</div>
+     </div>
+    </div>
+    
+<!--AUTO MARGINS-->
+    <span class="text-white">AUTO MARGIN</span>
+    <div class="bg-warning d-flex align-items-start flex-column" style="height: 200px;">
+      <div class="mb-auto bg-info text-white border border-light p-2">flex item</div>
+      <div class="bg-info text-white border border-light p-2">flex item</div>
+      <div class="bg-info text-white border border-light p-2">flex item</div>
+    </div>
+    <div class="bg-dark d-flex align-items-end flex-column mt-5" style="height: 200px;">
+      <div class="bg-info text-white border border-light p-2">flex item</div>
+      <div class="bg-info text-white border border-light p-2">flex item</div>
+      <div class="mt-auto bg-info text-white border border-light p-2">flex item</div>
+    </div>
+    <div class="mt-2 bg-dark mx-auto" style="width: 200px; height: 20vh;">
+      <div class="bg-info text-white border border-light p-2 text-center">Centered Item</div>
+    </div>
+  </div><!--div top container-->
+ 
+<!--RESPONSIVE IMAGE-->   
+    <div class="image"><!--See css style page-->
+    </div>
+		
+    <div class="container">
+			<img src="../../images/carousel-fish.jpg" class="img-fluid" alt="Responsive image">
+		</div><!--div container-->
+		
+  <div class="container-fluid">
+			<img src="../../images/carousel-fish.jpg" class="img-fluid" alt="Responsive image">
+		</div><!--div container-fluid-->
+		
+		<div class="container-fluid">
+		  <div class="row">
+		    <img src="../../images/carousel-fish.jpg" class="img-fluid" alt="Responsive image"><!--See css style page-->
+		  </div>
+  	</div>
+		
+		<img src="../../images/carousel-fish.jpg" class="img-fluid" alt="Responsive image"><!--See css style page-->
+  
+		
+    
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="../../js/jquery-3.2.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="../../js/popper.min.js"></script> 
+	<script src="../../js/bootstrap-4.0.0.js"></script>
+  </body>
+</html>
